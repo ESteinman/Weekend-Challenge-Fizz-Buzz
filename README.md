@@ -1,5 +1,8 @@
 # Weekend-Challenge-Fizz-Buzz
 
+## Deployed site:
+https://esteinman.github.io/Weekend-Challenge-Fizz-Buzz/
+
 ## List of content
 
 Instructions
