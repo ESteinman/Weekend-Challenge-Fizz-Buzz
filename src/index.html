@@ -9,10 +9,23 @@
   <title>Fizz Buzz</title>
 </head>
 <body>
-    <div class="bg-center bg-grey w-full h-full">
-        <input type="text" id="value">
-            <input type="submit" value="Check" id="button">
-    <div id="display_answer"></div>
+    
+    <div class="flex items-center h-screen w-full bg-grey-lightest">
+            <div class="bg-grey-lightest h-64 md:max-w-xs md:mx-auto">
+              <h1 class="block w-full text-center font-sans font-light text-grey-darkest text-4xl mb-8">Fizz Buzz</h1>
+                <div class="block p-8 flex-col flex mb-2 md:w-full">
+                  <input class="border-b-2 hover:border-grey-dark bg-grey-lightest text-center text-4xl py-4 px-3 font-sans font-thin text-grey-darkest" id="value" type="text">
+                </div>
+                    <div class="flex flex-col md:w-full">
+                        <input class= "block bg-grey-light hover:bg-grey-dark hover:text-white text-grey-dark font-light font-sans text-2xl mx-auto mb-8 p-4 rounded" type="submit" value="Check" id="button">
+                    </div>
+                                <div class="block text-center uppercase text-5xl font-sans font-semibold" id="display_answer">
+                                </div>         
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
 </body>
 <script src="js/fizz-buzz.js"></script>
 <script>
