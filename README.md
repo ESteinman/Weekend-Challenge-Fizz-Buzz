@@ -11,7 +11,7 @@ Changelog
 
 ## Instructions
 
-**This application will return on of these outputs:**
+**This application will return one of these outputs:**
 
 If the number is divisable by 3: Fizz
 If the number is divisable by 5: Buzz
